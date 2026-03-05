@@ -1,0 +1,59 @@
+  .box{
+    width: 400px;
+    height: 400px;
+    background-color: #f5f7f1;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(128, 252, 3);
+    padding: 30px;
+  }
+
+  body{
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+  }
+  div h2{
+    text-align: center;
+    color: #f5f7f1;
+
+  }
+
+  .password{
+      display: flex;
+       justify-content: space-between;
+  }
+  .password input{
+    height: 30px;
+    flex-basis: 90%;
+    justify-content: space-between;
+  }
+.passwordlen{
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.passwordlen  span{
+flex-basis: 80%;
+}
+.passwordlen input{
+  width: 40px;
+}
+  .content{
+    margin-top: 40px;
+  }
+
+  .same{
+  display: flex;
+   justify-content: space-between;
+   font-size: 20px;
+   margin-top: 20px;
+   
+ }
+ .submmit {
+  width: 100%;
+  margin-top: 10px;
+  
+ }
